@@ -10,7 +10,7 @@ evidence is, and conclusions are deliberately narrowed to the few points that su
 cross-checking against the official privacy policy, the third-party SDK list, and the
 system permission statements.
 
-> **中文完整版 writeup**: see [`docs/writeup_zh.md`](docs/writeup_zh.md).
+> **Full writeup (中文)**: [blog post](https://shuxin.my/p/a78d2829-8982-4add-b6d3-db1550f23c44) · also mirrored in [`docs/writeup_zh.md`](docs/writeup_zh.md)
 
 ---
 
