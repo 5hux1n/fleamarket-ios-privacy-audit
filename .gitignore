@@ -1,0 +1,24 @@
+# Raw runtime dumps contain real device identifiers — never commit them.
+# Only the desensitized data/sample_output.json is tracked.
+fm_audit.json
+fm_applist_probe.json
+fm_keychain.json
+fm_jailbreak.json
+fm_vimei_trace.json
+fm_wua.json
+kc_full.json
+kc_current.json
+*.local.json
+
+# Never commit app artifacts
+*.ipa
+*.app/
+Payload/
+*.dylib
+*.bin
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
