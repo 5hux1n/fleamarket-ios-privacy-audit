@@ -54,7 +54,7 @@ Interceptor.attach(ObjC.classes.UIApplication["- canOpenURL:"].implementation, {
 | +72 | `xhsdiscover://` | 小红书 |
 | +75 | `wireless1688://` | 1688 |
 
-全程覆盖短视频、社交、电商、地图各类主流 App。解包 `Info.plist`,它配置的 `LSApplicationQueriesSchemes` 刚好 50 多个,和这批探测目标 100% 吻合。
+全程覆盖短视频、社交、电商、地图各类主流 App。解包 `Info.plist`,它配置的 `LSApplicationQueriesSchemes` 刚好 50 多个,和这批探测目标 100% 吻合（完整 50 个应用清单对照见 [`data/scanned_apps.md`](../data/scanned_apps.md)）。
 
 **结论**:走系统白名单探测,技术上符合 iOS 规则,属于行业通行做法;SDK 清单也声明了收集应用列表。但有个披露缺口——鸿蒙版权限说明里明确写了"获取应用列表"这项能力,iOS 版权限说明没写。同一家、同一份东西,两个平台说法不一致。
 

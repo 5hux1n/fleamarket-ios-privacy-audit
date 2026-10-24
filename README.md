@@ -55,6 +55,8 @@ there"; we do not say "the domain is deliberately hidden" without evidence.
 | 6 | Self-protection | Jailbreak existence-checks, proxy detection, anti-injection (fishhook). Standard RASP for finance/e-commerce apps — environment-trust checks, not a privacy violation. | 🟩 |
 | 7 | Keychain access group | All items under Xianyu's own Team ID; **no cross-app sharing** with Alipay. | 🟢 |
 
+> For the complete itemized data, see [`data/scanned_apps.md`](data/scanned_apps.md) (full 50-app scheme audit) and [`data/notable_paths.md`](data/notable_paths.md) (filtered security and sensitive paths).
+
 ### What actually warrants scrutiny (narrowed)
 
 1. Self-built pseudo-random identifiers persisted in Keychain, undisclosed in any policy.
